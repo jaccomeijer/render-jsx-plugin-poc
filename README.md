@@ -23,5 +23,5 @@ npm run dev
 Esbuild bundles all mdx pages in `src/pages` and the `render-jsx-plugin` will
 render each bundle to html.
 
-MDX file changes are automatically rebuild. A browser refresh does a full
+MDX file changes automatically update the HTML. A browser refresh does a full
 rebuild, this can be useful when working with resources like css.
