@@ -1,0 +1,50 @@
+{
+  "name": "@jaccomeijer/render-jsx-plugin-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for Esbuild Render JSX Plugin",
+  "keywords": [
+    "esbuild",
+    "mdx",
+    "green",
+    "lib",
+    "ui"
+  ],
+  "author": "Jacco Meijer (https://www.jaccomeijer.nl)",
+  "contributors": [
+    {
+      "name": "Jacco Meijer",
+      "email": "jacco@jaccomeijer.nl",
+      "url": "https://www.jaccomeijer.nl"
+    }
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "npm run clean && node src/build.js"
+  },
+  "homepage": "https://github.com/jaccomeijer/render-jsx-plugin-poc#readme",
+  "bugs": {
+    "url": "https://github.com/jaccomeijer/render-jsx-plugin-poc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaccomeijer/render-jsx-plugin-poc.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/esbuild": "3.0.0",
+    "esbuild": "0.19.5",
+    "preact": "10.19.3",
+    "preact-render-to-string": "6.3.1",
+    "tiny-glob": "0.2.9"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-eslint": "9.0.0",
+    "eslint-plugin-react": "7.33.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.11.1"
+  },
+  "type": "module"
+}
